@@ -9,4 +9,4 @@ build: main.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $(PROJECT_NAME) main.c $(SOURCE_FILES)
 
 clean:
-	rm -f $(OBJECTS) $(PROJECT_NAME)
+	rm -f $(PROJECT_NAME)
