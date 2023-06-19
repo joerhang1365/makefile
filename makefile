@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-std=c17 -I./include
+CFLAGS=-Wall -Werror -Wpedantic -I./include
 LDFLAGS=-lm
 PROJECT_NAME=program
 
