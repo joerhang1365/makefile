@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-Wall -Werror -Wpedantic -I./include
-LDFLAGS=-lm
+CFLAGS= -std=c11 -Wall -Werror -Wpedantic -I./include
+LDFLAGS= -lm
 PROJECT_NAME=program
 
 SOURCE_FILES=$(wildcard src/*.c)
